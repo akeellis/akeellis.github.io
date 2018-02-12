@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .navbar {
     background-color: #2949608c;
 }
@@ -24,7 +23,7 @@
 .subtext {
     color: aliceblue;
 }
-=======
+
 .navbar {
     background-color: #2949608c;
 }
@@ -33,9 +32,14 @@
     color: aliceblue;
 }
 
+.nav-link:hover {
+    color: lightblue;
+}
+
 #wrapper {
     height: 100vh;
     background: url(../img/material-bg.jpg);
+    background-size: cover;
 }
 
 .banner-text {
@@ -50,4 +54,11 @@
 .subtext {
     color: aliceblue;
 }
->>>>>>> 1st commit
+
+.logo {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
