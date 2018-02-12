@@ -1,0 +1,25 @@
+.navbar {
+    background-color: #2949608c;
+}
+
+.nav-link {
+    color: aliceblue;
+}
+
+#wrapper {
+    height: 100vh;
+    background: url(../img/material-bg.jpg);
+}
+
+.banner-text {
+    font-size: 65px;
+    color: white;
+}
+
+.banner-wrapper {
+    top: 40%;
+}
+
+.subtext {
+    color: aliceblue;
+}
