@@ -55,10 +55,27 @@
     color: aliceblue;
 }
 
+@-webkit-keyframes spin {
+    from {
+        transform: rotateY(360deg);
+        transition: 2s;
+        transition-duration: 2s;
+        transition-timing-function: ease-in;
+    }
+    to {
+        transform: rotateY(0deg);
+    }
+
+
+}
+
 .logo {
 
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 25%;
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
 }
