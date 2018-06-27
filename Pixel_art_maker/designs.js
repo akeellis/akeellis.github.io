@@ -5,36 +5,36 @@
 
 function makeGrid() {
 
-// Your code goes here!
-var canvas, cell, gridHeight, gridWidth, rows;
+    // Your code goes here!
+    var canvas, cell, gridHeight, gridWidth, rows;
 
-canvas = $("#pixelCanvas");
-gridHeight = $('#inputHeight').val();
-gridWidth = $('#inputWidth').val();
+    canvas = $("#pixelCanvas");
+    gridHeight = $('#inputHeight').val();
+    gridWidth = $('#inputWidth').val();
 
-canvas.children().remove();
+    canvas.children().remove();
 
-for (x = 0; x < gridHeight; x++) {
-	canvas.append('<tr></tr>');
-	}
+    for (x = 0; x < gridHeight; x++) {
+        canvas.append('<tr></tr>');
+    }
 
-	rows = $('tr');
+    rows = $('tr');
 
-	for (i = 0; i < gridWidth; i++) {
-	rows.append('<td></td>');
-	}
+    for (i = 0; i < gridWidth; i++) {
+        rows.append('<td></td>');
+    }
 
 
 
-	$('td').click(function(){
-		var color;
-		color = $("#colorPicker").val();
+    $('td').click(function () {
+        var color;
+        color = $("#colorPicker").val();
 
-		 $(this).css("background-color", color);
-});
+        $(this).css("background-color", color);
+    });
 }
 
-$('input[type="submit"]').click(function(){
-	event.preventDefault();
-  makeGrid();
+$('input[type="submit"]').click(function () {
+    event.preventDefault();
+    makeGrid();
 });
