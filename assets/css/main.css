@@ -11,6 +11,16 @@
     background: url(../img/material-bg.jpg);
 }
 
+@media (max-width :900px) {
+    #wrapper {
+        height: 100%;
+        background: url(../img/material-bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+}
+
 .banner-text {
     font-size: 65px;
     color: white;
@@ -36,11 +46,6 @@
     color: lightblue;
 }
 
-#wrapper {
-    height: 100vh;
-    background: url(../img/material-bg.jpg);
-    background-size: cover;
-}
 
 .banner-text {
     font-size: 65px;
@@ -78,4 +83,14 @@
     -webkit-animation-name: spin;
     -webkit-animation-duration: 4s;
     -webkit-animation-iteration-count: infinite;
+}
+
+.text-light {
+    color: aliceblue;
+}
+
+.about-text {
+        background-color: rgba(255, 255, 255, 0.65);
+    border-radius: 10px;
+    padding: 10px;
 }
