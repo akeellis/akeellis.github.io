@@ -86,7 +86,8 @@ p{
 .intro{
     padding-top: 15%;
 }
-@-webkit-keyframes  spin{
+
+@keyframes  spin{
     from {
         transform: rotateY(360deg);
         transition: 2s;
@@ -97,8 +98,18 @@ p{
         transform: rotateY(0deg);
     }
 
-    
+}
 
+@-webkit-keyframes  spin{
+    from {
+        transform: rotateY(360deg);
+        transition: 2s;
+        transition-duration: 2s;
+        transition-timing-function: ease-in;
+    }
+    to {
+        transform: rotateY(0deg);
+    }
 
 }
 .logo {
