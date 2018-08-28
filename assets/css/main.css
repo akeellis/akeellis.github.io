@@ -63,8 +63,8 @@ p{
 
 #wrapper{
     background-image: url(../img/material-bg.jpg);
-    background-attachment: fixed;
-    background-size: cover;
+/*     background-attachment: fixed;
+    background-size: cover; */
     background-repeat: no-repeat;
 }
 
