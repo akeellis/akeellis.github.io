@@ -1,66 +1,352 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html  lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<title>Portfolio</title>
 
-<head>
-    <title>Akeellis</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Core CSS -->
-    <link rel="stylesheet" href='assets/css/main.css'>
-    <link rel="stylesheet" href='assets/css/bootstrap.min.css'>
-    <link href="assets/web-fonts-with-css/css/fontawesome-all.css">
-    <!--    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/js/bootstrap.js"></script>
-    <script type="text/javascript" src="assets/js/main.js"></script>
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/main.css">
 
+<!-- google fonts -->
+<link href="https://fonts.googleapis.com/css?family=Quicksand:300|Roboto:300" rel="stylesheet">
+
+<!-- owl carousel css -->
+<link href="assets/css/owl.carousel.min.css">
+
+<link rel="stylesheet" href="assets/css/slidebox.css">
+<!-- wow animate css -->
+<link rel="stylesheet" href="assets/css/animate.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script  type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+<script  type="text/javascript" src="assets/js/main.js"></script>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 </head>
 
-<body>
-    <div id="wrapper">
-        <nav class="navbar navbar-expand-sm fixed-top">
-            <!-- Brand/logo -->
-
-            <ul class="nav justify-content-end">
-                <li> <a class="nav-link " href="#">HOME</a></li>
-                <li> <a class="nav-link" href="#">ABOUT</a></li>
-                <li> <a class="nav-link" href="#">PROJECTS</a></li>
-
-            </ul>
-
-        </nav>
-
-        <div class="container banner-wrapper">
-            <div class="row">
-                <div class="col-sm-3"> </div>
-                <div class="col-sm-6">
-
-
-                    <img class="logo img-fluid" src="assets/img/image2vector.svg">
-
-
-                    <h1 class="banner-text text-center"> COMING SOON</h1>
-                    <p class="text-center subtext">Just working on a few things</p>
-
-                </div>
-
-                <div class="col-sm-3"> </div>
+<body id="wrapper">
+<!-- Preloader with Bootstrap Progress Bar -->
+<div class="preloader" id="preloader">
+           
+                 <img src="assets/img/preloader.gif" class="img-responsive center-block center">
+                    <!-- <p class="text-center loadText">Loading...</p> -->
+                
 
             </div>
 
-        </div>
+        <div id="mySidenav" class="sidenav " >
+                <a href="javascript:void(0)" class="closebtn"  onclick="closeNav()">&times;</a>
+                <a data-scroll href="index.html#about_section">About</a>
+                <a data-scroll href="index.html#project_section">Projects</a>
+                <a data-scroll href="index.html#service_section">Services</a>
+                <a data-scroll href="index.html#contact_section">Contact</a>
+              </div>
+              
+              <!-- Use any element to open the sidenav -->
+              <span class="menu-icon" onclick="openNav()" ><i class="fas fa-bars" ></i></span>
+              
+              <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+              <div id="main">
+                        <div id="particles-js"> </div>
+                         <div class="container" style="min-height: 100vh;">
+                    
+                        <div class="row">
+                                <div class="col-sm-6 intro">
+                                  <img class="logo img-fluid" src="assets/img/image2vector.svg">
+                                    <h3 class="intro-title">Name Here </h3>
+                                    <hr>
+                                    <p class="desc  text-light">
+                                            I'm a 25 year-old Australian Freelance Front-end Developer working for the last five years.
 
-    </div>
+                                    </p>
+                                    <p>
+                                       <a class="nav-link" href="index.html#about_section"> <i class="nav-icon fas fas fa-chevron-circle-down"></i></a>
+                                    </p>
 
 
+                        </div>
+                        <div class="col-sm-6 ">
+
+                        </div>
+
+
+                    </div>
+                    <div class="row">
+                                <div class="col-sm-12">
+                        <a href="index.html#contact_section" class="contact-btn btn btn-info" role="button">contact</a>
+                                </div>
+                    </div>
+
+
+
+                 </div>
+                 <!-- about section begin -->
+                 <div id="about_section" class="container">
+                        <div class="row">
+                                <div class="col-sm-6 wow fadeInUp">
+                                                <h3 class="section-title">ABOUT</h3>
+                                                <hr>
+                                                <h5 class="mini_title">
+                                                        Make. Create. Innovate
+                                                </h5>
+                                                <p class="desc  text-light">
+                                                        I'm a 25 year-old Australian Freelance Front-end Developer working for the last five years.
+            
+                                                </p>
+                                                <p>
+                                                                <a class="nav-link"  href="index.html#project_section"> <i class="nav-icon fas fas fa-chevron-circle-down"></i></a>
+                                                </p>
+
+                                </div>
+                                <div class="col-sm-6">
+
+                                        </div>
+                        </div>
+
+                        </div>
+                        <!-- about section ends -->
+
+                        <!-- project section starts -->
+                 <div id="project_section" class="container">
+                                <div class="row">
+                                        <div class="col-sm-6 wow fadeInUp">
+                                                        <h3 class="section-title">PROJECTS</h3>
+                                                        <hr>
+                                                        <h5 class="mini_title">
+                                                               Here are some of my works
+                                                        </h5>
+                                                        <p class="desc  text-light">
+                                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam cumque dicta et expedita perferendis voluptas!
+                    
+                                                        </p>
+                                                        <p>
+                                                                        <a data-scroll href="index.html#service_section">   <i class="nav-icon fas fas fa-chevron-circle-down"></i> </a>
+                                                        </p>
+        
+                                        </div>
+                                        <div class="col-sm-6 wow fadeInUp">
+                                                
+                                                <div class="slide-box box-carousel  box-active" data-loop="true" data-interval="5500">
+                                                        <div class="item slide"><img src="http://placekitten.com/1000/600" alt="" width="480" height="300"></div>
+                                                        <div class="item slide"><img src="http://placekitten.com/1010/606" alt="" width="480" height="300"></div>
+                                                        <div class="item slide"><img src="http://placekitten.com/1060/636" alt="" width="480" height="300"></div>
+                                                      
+                                                      <div class="controls">
+                                                        <a data-scroll-ignore href="#" class="close">Close</a>
+                                                        <a data-scroll-ignore href="#" class="prev ">Previous</a>
+                                                        <a data-scroll-ignore href="#" class="next">Next</a>
+                                                </div>
+                                                        
+                                                        <div class="pager pager-inline">			
+                                                                <a data-scroll-ignore href="#" class="pg-item 1 pg-item-active" title="1">1</a>
+                                                                <a data-scroll-ignore href="#" class="pg-item 2" title="2">2</a>	
+                                                                <a data-scroll-ignore href="#" class="pg-item 3" title="3">3</a>
+                                                        </div>      
+                                                                    
+
+                                                
+        
+                                                </div>
+                                </div>
+        
+                        </div>
+              </div>
+                        <!-- projects end -->
+
+                         <!-- services start -->
+                         <div id="service_section" class="container">
+                        <div class="row">
+                                <div class="col-sm-6 wow fadeInUp">
+                                                <h3 class="section-title">SERVICES</h3>
+                                                
+                                                <h5 class="mini_title">
+                                                        Make. Create. Innovate
+                                                </h5>
+                                                <p class="desc  text-light">
+                                                        I'm a 25 year-old Australian Freelance Front-end Developer working for the last five years.
+            
+                                                </p>
+                                                <hr>
+
+                                </div>
+                                <div class="col-sm-6">
+
+                                        </div>
+                        </div>
+                        <div class="row wow fadeInUp">
+                                <div class="col-sm-3 ">
+                                        <i class="fas fas fa-laptop"></i>
+                                        <h4  class=" text-light">Web Development</h4>
+                                        <p class="desc  text-light">
+                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam cumque dicta et expedita perferendis voluptas!
+            
+                                                </p>
+
+                                </div>
+                                <div class="col-sm-3">
+                                                <i class="fas fas fa-chart-line"></i>
+                                                <h4  class=" text-light">Digital Marketing</h4>
+                                                <p class="desc  text-light">
+                                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam cumque dicta et expedita perferendis voluptas!
+                    
+                                                        </p>
+
+                                        </div>
+                                 <div class="col-sm-3">
+                                                <i class="fas fa-image"></i>
+                                                <h4  class=" text-light">Graphics Design</h4>
+                                                <p class="desc  text-light">
+                                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam cumque dicta et expedita perferendis voluptas!
+                    
+                                                        </p>
+
+                                </div>
+                                <div class="col-sm-3">
+                                                <i class="fas fa-desktop"></i>
+                                                <h4  class=" text-light">Tech Support</h4>
+                                                <p class="desc  text-light">
+                                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam cumque dicta et expedita perferendis voluptas!
+                    
+                                                        </p>
+
+                                </div>
+
+                        </div>
+
+                         </div>
+                 <!-- services ends -->
+
+                 <!-- contact begins -->
+
+                 <div id="contact_section" class="container">
+                        <div class="row wow fadeInUp">
+
+                                        <div class="col-sm-8">
+                                                        <h3 class="section-title">CONTACT</h3>
+                                                        <hr>
+                                                        <h5 class="mini_title">
+                                                                        Please fill out the quick contact form below and i will be in touch within 24 hours.  
+                                                        </h5>
+                                                <div class="container">
+                                                        <div class="row">
+                                                                        <div class="col-sm-6">
+                                                                                <h5 class="text-light">Phone</h5>
+                                                                                     <p class="text-light"> 
+                                                                                             080-123-1234
+                                                                                        </p> 
+                                                                                        <h5 class="text-light">Email</h5>
+                                                                                     <p class="text-light"> 
+                                                                                             mail@example.com
+                                                                                        </p> 
+                                            
+                                            
+                                                                                </div>
+                                                                                <div class="col-sm-6">
+                                                                                                <h5 class="text-light">Connect on</h5>
+                                                                                                <p class="text-light"> 
+                                                                                                 <a data-scroll-ignore href="#"> <i class="socials fab fa-facebook"></i></a>
+                                                                                                 <a data-scroll-ignore href="#"><i class=" socials fab fa-twitter-square"></i></a>
+                                                                                                 <a data-scroll-ignore href="#"> <i class="socials fab fa-behance-square"></i>  </a>     
+                                                                                                </p>
+                                                    
+                                                                                        </div>
+
+                                                        </div>
+
+                                                </div>        
+                                                        
+                                                        
+
+                                         </div>
+
+                                         <div class="col-sm-4">
+                                                <h3 class="section-title">ENQUIRIES</h3>
+                                                <hr>
+                                                <form id="contact_form">
+                                                        <input type="text" name="name" id="name" class="form-control" placeholder="Your name" required>
+                                                        <input type="email" name="email" id="email" class="form-control" placeholder="Your email" required>
+                                                        <textarea cols="30" rows="5" name="message" id="message" class="form-control" placeholder="Your message" required></textarea>
+                                                        <button class="btn-primary form-control" id="submit-btn">SEND MESSAGE
+                                                                <span class="load">
+                                                                        <span></span>
+                                                                </span>
+                                                        </button>
+                                                        <div id="msg"></div>
+                                                </form>
+                                        </div>
+                                                
+
+                        </div>
+
+
+
+                 </div>
+                        </div>
+
+       
+               
+               
+                </div>
+                <div class ="container-fluid">
+                        <div class="row">
+                                    <div class="col-sm-12">
+                                                <a class="nav-link" href="#">
+                                                         <i class="nav-icon to_top fas fas fa-chevron-circle-up"></i>
+                                                </a>
+
+                                    </div>
+
+                </div>
+        
+                        <script src="assets/js/slidebox-min.js"></script>
+
+   <!-- wow js -->
+   <script src="assets/js/wow.min.js"></script>
+   <script>
+                new WOW().init();
+                </script>
+<!-- smooth scroll -->
+        <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14.0/dist/smooth-scroll.polyfills.min.js"></script>
+        <script>
+                var scroll = new SmoothScroll( 'a[href*="#"]');
+                // smooth scroll settings
+                var scroll = new SmoothScroll('a[href*="#"]', {
+                        speed: 1500,
+                        updateURL: true, // Update the URL on scroll
+                        ignore: '[data-scroll-ignore]',
+
+                        });
+
+
+        </script>
+
+        <!--    particles js-->
+    <script src="assets/js/particles.min.js"></script>
+    <script> 
+        
+        /* particlesJS('dom-id', params);
+    /* @dom-id : set the html tag id [string, optional, default value : particles-js]
+    /* @params: set the params [object, optional, default values : check particles.js] */
+    
+ particlesJS("particles-js", { "particles": { "number": { "value": 80, "density": { "enable": true, "value_area": 800 } },
+"color": { "value": "#ffffff" }, "shape": { "type": "circle", "stroke": { "width": 0, "color": "#000000" }, "polygon": {
+"nb_sides": 5 }, "image": { "src": "img/github.svg", "width": 100, "height": 100 } }, "opacity": { "value": 0.5, "random":
+false, "anim": { "enable": false, "speed": 1, "opacity_min": 0.1, "sync": false } }, "size": { "value": 3, "random": true,
+"anim": { "enable": false, "speed": 40, "size_min": 0.1, "sync": false } }, "line_linked": { "enable": true, "distance":
+150, "color": "#ffffff", "opacity": 0.4, "width": 1 }, "move": { "enable": true, "speed": 6, "direction": "none", "random":
+false, "straight": false, "out_mode": "out", "bounce": false, "attract": { "enable": false, "rotateX": 600, "rotateY": 1200
+} } }, "interactivity": { "detect_on": "canvas", "events": { "onhover": { "enable": true, "mode": "repulse" }, "onclick":
+{ "enable": false, "mode": "push" }, "resize": true }, "modes": { "grab": { "distance": 400, "line_linked": { "opacity": 1
+} }, "bubble": { "distance": 400, "size": 40, "duration": 2, "opacity": 8, "speed": 3 }, "repulse": { "distance": 200, "duration":
+0.4 }, "push": { "particles_nb": 4 }, "remove": { "particles_nb": 2 } } }, "retina_detect": true }); var count_particles,
+stats, update; stats = new Stats; stats.setMode(0); stats.domElement.style.position = 'absolute'; stats.domElement.style.left
+= '0px'; stats.domElement.style.top = '0px'; document.body.appendChild(stats.domElement); count_particles = document.querySelector('.js-count-particles');
+update = function () { stats.begin(); stats.end(); if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array)
+{ count_particles.innerText = window.pJSDom[0].pJS.particles.array.length; } requestAnimationFrame(update); }; requestAnimationFrame(update);;
+</script>
 </body>
-
-
-
-
-
-
-
-
-
 </html>

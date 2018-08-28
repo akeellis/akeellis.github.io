@@ -4,7 +4,6 @@
 
 * [Instructions](#instructions)
 * [Contributing](#contributing)
-* [about](#about)
 
 ## Instructions
 
@@ -15,8 +14,3 @@ For specific, detailed instructions, look at the project instructions in the [Ud
 ## Contributing
 
 This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
-
-## about
-<img src="pixel-art-1.png">
-This is the final project for Andela/udacity frontend web development track. a.k.a 7 days of code challenge.
-7 Days of Code Challenge is an individual project/program completion task for the ALC learners. 
