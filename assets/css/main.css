@@ -82,7 +82,7 @@ p {
 }
 
 #wrapper {
-/*
+    /*
     background-image: url(../img/material-bg.jpg);
     background-attachment: fixed;
     background-size: cover;
@@ -112,8 +112,8 @@ p {
     z-index: 1;
 }
 
-.intro {
-    padding-top: 15%;
+.intro-wrapper {
+    padding-top: 20%;
 }
 
 @keyframes spin {
