@@ -84,8 +84,10 @@ p {
 #wrapper {
     background-image: url(../img/material-bg.jpg);
     background-attachment: fixed;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
+    max-height: 100vh;
 }
 
 #service_section,
