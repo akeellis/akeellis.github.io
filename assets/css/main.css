@@ -82,12 +82,14 @@ p {
 }
 
 #wrapper {
+/*
     background-image: url(../img/material-bg.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     max-height: 100vh;
+*/
 }
 
 #service_section,
@@ -220,6 +222,12 @@ hr {
 
 canvas {
     position: fixed;
+
+    background-image: url(../img/material-bg.jpg);
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 /* Preloader
