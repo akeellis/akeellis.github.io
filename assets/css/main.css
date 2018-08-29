@@ -63,8 +63,17 @@ p{
 
 #wrapper{
     background-image: url(../img/material-bg.jpg);
+<<<<<<< HEAD
     background-attachment: fixed;
     background-size: cover;
+=======
+<<<<<<< HEAD
+    /* background-attachment: fixed;
+=======
+/*     background-attachment: fixed;
+>>>>>>> 8dad38c3555f1fe32fbd7bc83b850c969c677731
+    background-size: cover; */
+>>>>>>> coming_soon_page/master
     background-repeat: no-repeat;
 }
 
