@@ -1,24 +1,34 @@
-p{
+p {
     font-family: 'Quicksand', sans-serif;
 }
 
 
 /* The side navigation menu */
+
 .sidenav {
-    height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 2; /* Stay on top */
-    top: 0; /* Stay at the top */
+    height: 100%;
+    /* 100% Full-height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 2;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
     left: 0;
-    background: -webkit-linear-gradient(left, rgba(10,10,13,1) 0%, rgba(27,27,36,1) 100%);
-    background: linear-gradient(to right, rgba(10,10,13,1) 0%, rgba(27,27,36,1) 100%);
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    background: -webkit-linear-gradient(left, rgba(10, 10, 13, 1) 0%, rgba(27, 27, 36, 1) 100%);
+    background: linear-gradient(to right, rgba(10, 10, 13, 1) 0%, rgba(27, 27, 36, 1) 100%);
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidenav */
 }
 
 /* The navigation menu links */
+
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
@@ -30,10 +40,13 @@ p{
 }
 
 /* When you mouse over the navigation links, change their color */
-.sidenav a:hover, .sidenav a:active, .sidenav a:focus {
+
+.sidenav a:hover,
+.sidenav a:active,
+.sidenav a:focus {
     color: #f1f1f1;
-    background: linear-gradient(to right, #1d1d26 0%,#383847 100%);
-    background: -webkit-linear-gradient(left, #1d1d26 0%,#383847 100%);
+    background: linear-gradient(to right, #1d1d26 0%, #383847 100%);
+    background: -webkit-linear-gradient(left, #1d1d26 0%, #383847 100%);
     border-color: #3c3c4d;
     border: 1px solid #3c3c3d;
     box-shadow: 0px 0px 4px #9e9e9e7d;
@@ -41,6 +54,7 @@ p{
 
 
 /* Position and style the close button (top right corner) */
+
 .sidenav .closebtn {
     position: absolute;
     top: 0;
@@ -50,53 +64,55 @@ p{
 }
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+
 #main {
     transition: margin-left .5s;
     padding: 20px;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+
 @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
 }
 
-#wrapper{
+#wrapper {
     background-image: url(../img/material-bg.jpg);
-<<<<<<< HEAD
     background-attachment: fixed;
     background-size: cover;
-=======
-<<<<<<< HEAD
-    /* background-attachment: fixed;
-=======
-/*     background-attachment: fixed;
->>>>>>> 8dad38c3555f1fe32fbd7bc83b850c969c677731
-    background-size: cover; */
->>>>>>> coming_soon_page/master
     background-repeat: no-repeat;
 }
 
-#service_section,#project_section,#contact_section {
+#service_section,
+#project_section,
+#contact_section {
     padding-top: 10%;
 }
 
-.menu-icon, {
+.menu-icon,
+    {
     color: #f1f1f1;
     /* float: right; */
     padding: 10px;
     font-size: 25px;
 }
-.menu-icon>i {
+
+.menu-icon > i {
     padding: 30px;
     position: fixed;
     z-index: 1;
 }
-.intro{
+
+.intro {
     padding-top: 15%;
 }
 
-@keyframes  spin{
+@keyframes spin {
     from {
         transform: rotateY(360deg);
         transition: 2s;
@@ -109,7 +125,7 @@ p{
 
 }
 
-@-webkit-keyframes  spin{
+@-webkit-keyframes spin {
     from {
         transform: rotateY(360deg);
         transition: 2s;
@@ -121,6 +137,7 @@ p{
     }
 
 }
+
 .logo {
 
     display: block;
@@ -133,27 +150,34 @@ p{
     animation-duration: 4s;
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
-	border-radius: 10%;
+    border-radius: 10%;
 }
-.intro-title{
-font-size: 65px;
-color: white;
+
+.intro-title {
+    font-size: 65px;
+    color: white;
 }
-.section-title{
+
+.section-title {
     font-size: 45px;
     color: white;
 }
-hr{
+
+hr {
     background-color: rgba(245, 245, 245, 0.2);
 }
-.desc{
-font-size: 20px;
+
+.desc {
+    font-size: 20px;
 }
-.mini_title{
+
+.mini_title {
     color: white;
     font-size: 24px;
 }
-.nav-icon, .fas{
+
+.nav-icon,
+.fas {
     color: #f1f1f1;
     font-size: 25px;
 }
@@ -170,60 +194,66 @@ font-size: 20px;
     background: #0000;
     border-color: #fff;
 }
-.contact_form{
+
+.contact_form {
     padding-top: 20px;
 }
 
-.form-control{
+.form-control {
     margin: 10px;
 }
 
-.box-carousel{
+.box-carousel {
     width: 100% !important;
     height: 100% !important;
 }
+
 .box-active {
-    z-index: 2 !important; 
+    z-index: 2 !important;
 }
-.socials{
+
+.socials {
     font-size: 35px;
 }
 
 canvas {
     position: fixed;
-  }
-  
-  /* Preloader 
------------------------------------------------*/
-.loadText{
-    font-family: Arial;
-    color:#000;
-	font-size: 30px;
 }
+
+/* Preloader
+-----------------------------------------------*/
+
+.loadText {
+    font-family: Arial;
+    color: #000;
+    font-size: 30px;
+}
+
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
-.preloader{
-    background-color:#354e60;
+
+.preloader {
+    background-color: #354e60;
     height: 100%;
-	padding-top: 15%;
-	/* margin-left: -20px;
+    padding-top: 15%;
+    /* margin-left: -20px;
 	margin-top: -20px; */
-	position: fixed;
-	width: 100%;
-	z-index: 99;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
 }
+
 @media screen and (max-width: 450px) {
-    .preloader{
+    .preloader {
         padding-top: 50%;
     }
     .center {
         width: 100%;
     }
-    
-    
-}
 
+
+}
