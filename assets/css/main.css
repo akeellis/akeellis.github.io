@@ -84,7 +84,7 @@ p {
 #wrapper {
     background-image: url(../img/material-bg.jpg);
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 
