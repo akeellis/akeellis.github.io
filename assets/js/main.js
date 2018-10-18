@@ -13,8 +13,41 @@ function closeNav() {
 }
 
 // preloader
-$(document).ready(function(){
-    setTimeout(function() {
-		$("#preloader").fadeOut();
-	},3000);
+$(document).ready(function () {
+    setTimeout(function () {
+        $("#preloader").fadeOut();
+    }, 3000);
+});
+
+
+// gallery portfolio
+
+$(document).ready(function () {
+    $(".fancybox").fancybox({
+        openEffect: "none",
+        closeEffect: "none",
+    });
+
+    $(".zoom").hover(function () {
+
+        $(this).addClass('transition');
+    }, function () {
+
+        $(this).removeClass('transition');
+    });
+
+
+});
+
+$('[data-fancybox="images"]').fancybox({
+    buttons: [
+        'slideShow',
+        'share',
+        'zoom',
+        'fullScreen',
+        'close'
+    ],
+    thumbs: {
+        autoStart: true
+    }
 });

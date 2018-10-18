@@ -76,6 +76,7 @@ p {
     .sidenav {
         padding-top: 15px;
     }
+
     .sidenav a {
         font-size: 18px;
     }
@@ -106,7 +107,7 @@ p {
     font-size: 25px;
 }
 
-.menu-icon > i {
+.menu-icon>i {
     padding: 30px;
     position: fixed;
     z-index: 1;
@@ -123,6 +124,7 @@ p {
         transition-duration: 2s;
         transition-timing-function: ease-in;
     }
+
     to {
         transform: rotateY(0deg);
     }
@@ -136,6 +138,7 @@ p {
         transition-duration: 2s;
         transition-timing-function: ease-in;
     }
+
     to {
         transform: rotateY(0deg);
     }
@@ -261,9 +264,64 @@ canvas {
     .preloader {
         padding-top: 50%;
     }
+
     .center {
         width: 100%;
     }
 
 
+
+}
+
+/*gallery*/
+
+#demo {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.green {
+    background-color: #6fb936;
+}
+
+.thumb {
+    margin-bottom: 20px;
+}
+
+.page-top {
+    margin-top: 150px;
+}
+
+
+img.zoom {
+    width: 250px;
+    height: 200px;
+
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+}
+
+
+.transition {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.modal-header {
+
+    border-bottom: none;
+}
+
+.modal-title {
+    color: #000;
+}
+
+.modal-footer {
+    display: none;
 }
