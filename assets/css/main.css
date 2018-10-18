@@ -107,7 +107,7 @@ p {
     font-size: 25px;
 }
 
-.menu-icon>i {
+.menu-icon > i {
     padding: 30px;
     position: fixed;
     z-index: 1;
@@ -296,7 +296,7 @@ canvas {
 
 
 img.zoom {
-    width: 250px;
+    width: 100%;
     height: 200px;
 
     -webkit-transition: all .3s ease-in-out;
@@ -324,4 +324,13 @@ img.zoom {
 
 .modal-footer {
     display: none;
+}
+
+.gallery {
+    width: 100%;
+    margin: 0px
+}
+
+form#contact_form {
+    padding: 0px 15px 0px 0px;
 }
