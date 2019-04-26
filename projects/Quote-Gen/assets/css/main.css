@@ -69,6 +69,7 @@ body {
 
 canvas.particles-js-canvas-el {
     position: fixed;
+	    top: 0 !important;
 }
 
 
