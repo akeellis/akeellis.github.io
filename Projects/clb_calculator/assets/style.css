@@ -1,5 +1,5 @@
 .heading {
-text-align : center;
+    text-align: center;
 }
 
 .wrapper {
@@ -8,10 +8,11 @@ text-align : center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-	padding-top: 50px;
+    padding-top: 50px;
 }
 
 div#ielts_final {
     color: #009688;
     font-size: 60px;
+    text-align: center;
 }
