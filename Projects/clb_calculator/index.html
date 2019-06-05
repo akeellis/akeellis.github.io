@@ -1,33 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-  <title>CLB Calculator / Converter</title>
+
+<head>
+    <title>CLB Calculator / Converter</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="Keywords" content="clb,IELTS,calculator,canada,english,test,international,benchmark,immigrations,travel,visa,express,entry">
-	<meta name="Description" content=" calculate or convert IELTS scores to CLB scores">
+    <meta name="Keywords" content="clb,IELTS,calculator,canada,english,test,international,benchmark,immigrations,travel,visa,express,entry">
+    <meta name="Description" content=" calculate or convert IELTS scores to CLB scores">
 
-	<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-<link rel="stylesheet" href = "assets/style.css">
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 
-<!-- Popper JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-<script src="assets/clb.js"> </script>
-  </head>
-  <body>
-  <div class="wrapper">
-	<h3 class="heading"> IELTS-CLB Calculator / Converter</h3>
-	<form action="javascript:ielts_calculate()" id="ieltscalc" class="form-wrapper">
-	<div class="form-group">
-		<label for="Listening">Listening</label>
-		<select name="iel_listening" id="iel_listening" class="form-control" required>
+    <script src="assets/clb.js">
+
+
+    </script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-2789331406388469",
+            enable_page_level_ads: true
+        });
+
+    </script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h3 class="heading"> IELTS-CLB Calculator / Converter</h3>
+        <form action="javascript:ielts_calculate()" id="ieltscalc" class="form-wrapper">
+            <div class="form-group">
+                <label for="Listening">Listening</label>
+                <select name="iel_listening" id="iel_listening" class="form-control" required>
 		<option value="">Select</option>
 		<option value="9.0">9.0+</option>
 		<option value="8.5">8.5</option>
@@ -43,11 +57,11 @@
 		<option value="3.5">3.5</option>
 		<option value="3.0">3.0 or less</option>
 	  </select>
-	  </div>
+            </div>
 
-	  <div class="form-group">
-		<label for="Reading">Reading</label>
-		<select name="iel_reading" id="iel_reading" class="form-control" required>
+            <div class="form-group">
+                <label for="Reading">Reading</label>
+                <select name="iel_reading" id="iel_reading" class="form-control" required>
 		<option value="">Select</option>
 		<option value="9.0">9.0+</option>
 		<option value="8.5">8.5</option>
@@ -63,11 +77,11 @@
 		<option value="3.5">3.5</option>
 		<option value="3.0">3.0 or less</option>
 	  </select>
-	  </div>
+            </div>
 
-	  <div class="form-group">
-		<label for="Writing">Writing</label>
-		<select name="iel_writing" id="iel_writing" class="form-control" required>
+            <div class="form-group">
+                <label for="Writing">Writing</label>
+                <select name="iel_writing" id="iel_writing" class="form-control" required>
 		<option value="">Select</option>
 		<option value="9.0">9.0+</option>
 		<option value="8.5">8.5</option>
@@ -85,11 +99,11 @@
 
 	  </select>
 
-	  </div>
+            </div>
 
-	  <div class="form-group">
-		<label for="iel_speaking">Speaking</label>
-		<select name="iel_speaking" id="iel_speaking" class="form-control" required>
+            <div class="form-group">
+                <label for="iel_speaking">Speaking</label>
+                <select name="iel_speaking" id="iel_speaking" class="form-control" required>
 		<option value="">Select</option>
 		<option value="9.0">9.0+</option>
 		<option value="8.5">8.5</option>
@@ -105,27 +119,20 @@
 		<option value="3.5">3.5</option>
 		<option value="3.0">3.0 or less</option>
 	  </select>
-	  </div>
-	  <p><input type="submit" name="ielts_calc" id="Calculate" value="What is my CLB?" class="formbutton"></p>
+            </div>
+            <p><input type="submit" name="ielts_calc" id="Calculate" value="What is my CLB?" class="formbutton"></p>
 
-	</form>
-	<div id="ielts_final"></div>
-	</div>
-	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- General -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-2789331406388469"
-     data-ad-slot="5689803005"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+        </form>
+        <div id="ielts_final"></div>
+    </div>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- General -->
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2789331406388469" data-ad-slot="5689803005" data-ad-format="auto" data-full-width-responsive="true"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+
+    </script>
 </body>
-
-
-
 
 
 
