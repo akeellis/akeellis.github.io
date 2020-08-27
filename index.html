@@ -357,12 +357,12 @@
                 <div class="col-md-8 col-sm-12">
                     <h3 class="section-title">ENQUIRIES</h3>
                     <hr>
-                    <form id="contact_form" method="post" action="send_mail.php"  enctype="text/plain" >
+                    <form id="contact_form"  action="https://formspree.io/mlepydrl" method="POST"  enctype="text/plain" >
                         <input type="text" name="name" id="name" class="form-control" placeholder="Your name" required>
                         <input type="email" name="email" id="email" class="form-control" placeholder="Your email"
                             required>
                         <textarea cols="30" rows="5" name="message" id="message" class="form-control"
-                            placeholder="Your message" required></textarea>
+                            placeholder="Your message" maxlength="500" required></textarea>
                         <button class="btn-primary form-control" id="submit-btn">SEND MESSAGE
                             <span class="load">
                                 <span></span>
