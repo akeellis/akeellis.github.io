@@ -336,3 +336,15 @@ form#contact_form {
     color: white;
     transition: 1s;
 }
+.p-link{
+    color: #fff;
+    padding: 5px;
+    background: #1a364b !important;
+}
+.p-link a{
+    color: #fff;
+}
+
+img.zoom.img-fluid.transition{
+    transform: scale(1.05);
+}
