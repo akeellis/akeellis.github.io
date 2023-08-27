@@ -82,16 +82,16 @@ p {
     }
 }
 
-#wrapper {
-    /*
+/* #wrapper {
+    
     background-image: url(../img/material-bg.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     max-height: 100vh;
-*/
-}
+
+} */
 
 #service_section,
 #project_section,
@@ -102,8 +102,8 @@ p {
 .menu-icon{
     color: #f1f1f1;
     /* float: right; */
-    padding: 10px;
-    font-size: 25px;
+    /* padding: 10px;
+    font-size: 25px; */
 }
 
 .menu-icon > i {
@@ -114,6 +114,10 @@ p {
 
 .intro-wrapper {
     padding-top: 20%;
+}
+
+.btn-info:hover {
+    background-color: #0d2b41;
 }
 
 @keyframes spin {
