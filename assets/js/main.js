@@ -51,3 +51,6 @@ $('[data-fancybox="images"]').fancybox({
         autoStart: true
     }
 });
+
+
+
